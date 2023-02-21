@@ -8,9 +8,9 @@ class MainTest {
     @Test
     void shouldSumma(){
         Main main = new Main();
-        int[] values = {1,2,3,4,5,6,7,8,9};
-        int expected = 45;
-        int actual = main.summa(values);
+        long[] values = {1,2,3,4,5,6,7,8,9};
+        long expected = 9;
+        long actual = main.findMax(values);
         assertEquals(expected,actual);
 
     }
